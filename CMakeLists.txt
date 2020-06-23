@@ -11,6 +11,8 @@ include_source(clox_source "src/chunk")
 include_source(clox_source "src/memory")
 include_source(clox_source "src/debug")
 include_source(clox_source "src/value")
+include_source(clox_source "src/compiler")
+include_source(clox_source "src/scanner")
 
 add_executable(clox ${clox_source})
 
