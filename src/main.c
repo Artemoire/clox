@@ -17,6 +17,15 @@ static void repl() {
             break;
         }
 
+		for (int i = 0; i < 1024; i++) {
+			char c = line[i];
+			if (line[i] == '\n') {
+				line[i] = '\0';
+				break;
+			}
+		}
+
+
         interpret(line);
     }
 }
