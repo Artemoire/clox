@@ -14,6 +14,7 @@ include_source(clox_source "src/value")
 include_source(clox_source "src/compiler")
 include_source(clox_source "src/scanner")
 include_source(clox_source "src/object")
+include_source(clox_source "src/table")
 
 add_executable(clox ${clox_source})
 
